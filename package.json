@@ -1,0 +1,26 @@
+{
+  "name": "web16c3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityasekharbej/web16c3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityasekharbej/web16c3/issues"
+  },
+  "homepage": "https://github.com/adityasekharbej/web16c3#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}
