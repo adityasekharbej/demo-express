@@ -13,7 +13,7 @@ app.use(express.json());
 //     return res.status(401).send("No API key exist");
 //   }
 // });
-app.get("/votes/*", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Welcome!")
 })
 app.post("/user/create", (req, res) => {
