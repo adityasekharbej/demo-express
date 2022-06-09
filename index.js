@@ -14,7 +14,7 @@ app.use(express.json());
 //   }
 // });
 app.get("/", (req, res) => {
-  res.send("Welcome!")
+  res.send("Homepage!")
 })
 app.post("/user/create", (req, res) => {
   fs.readFile("./db.json", "utf-8", (err, data) => {
